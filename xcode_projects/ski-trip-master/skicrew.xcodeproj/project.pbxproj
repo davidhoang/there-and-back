@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CF92921A58FED00013E1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF92911A58FED00013E1C1 /* AppDelegate.swift */; };
+		07CF92941A58FED00013E1C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF92931A58FED00013E1C1 /* ViewController.swift */; };
+		07CF92971A58FED00013E1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF92951A58FED00013E1C1 /* Main.storyboard */; };
+		07CF92991A58FED00013E1C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CF92981A58FED00013E1C1 /* Images.xcassets */; };
+		07CF929C1A58FED10013E1C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CF929A1A58FED10013E1C1 /* LaunchScreen.xib */; };
+		07CF92A81A58FED10013E1C1 /* skicrewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF92A71A58FED10013E1C1 /* skicrewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07CF92A21A58FED10013E1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CF92841A58FED00013E1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CF928B1A58FED00013E1C1;
+			remoteInfo = skicrew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CF928C1A58FED00013E1C1 /* skicrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skicrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CF92901A58FED00013E1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CF92911A58FED00013E1C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07CF92931A58FED00013E1C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07CF92961A58FED00013E1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07CF92981A58FED00013E1C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07CF929B1A58FED10013E1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07CF92A11A58FED10013E1C1 /* skicrewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skicrewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CF92A61A58FED10013E1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CF92A71A58FED10013E1C1 /* skicrewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skicrewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CF92891A58FED00013E1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF929E1A58FED10013E1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CF92831A58FED00013E1C1 = {
+			isa = PBXGroup;
+			children = (
+				07CF928E1A58FED00013E1C1 /* skicrew */,
+				07CF92A41A58FED10013E1C1 /* skicrewTests */,
+				07CF928D1A58FED00013E1C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07CF928D1A58FED00013E1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CF928C1A58FED00013E1C1 /* skicrew.app */,
+				07CF92A11A58FED10013E1C1 /* skicrewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CF928E1A58FED00013E1C1 /* skicrew */ = {
+			isa = PBXGroup;
+			children = (
+				07CF92911A58FED00013E1C1 /* AppDelegate.swift */,
+				07CF92931A58FED00013E1C1 /* ViewController.swift */,
+				07CF92951A58FED00013E1C1 /* Main.storyboard */,
+				07CF92981A58FED00013E1C1 /* Images.xcassets */,
+				07CF929A1A58FED10013E1C1 /* LaunchScreen.xib */,
+				07CF928F1A58FED00013E1C1 /* Supporting Files */,
+			);
+			path = skicrew;
+			sourceTree = "<group>";
+		};
+		07CF928F1A58FED00013E1C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07CF92901A58FED00013E1C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07CF92A41A58FED10013E1C1 /* skicrewTests */ = {
+			isa = PBXGroup;
+			children = (
+				07CF92A71A58FED10013E1C1 /* skicrewTests.swift */,
+				07CF92A51A58FED10013E1C1 /* Supporting Files */,
+			);
+			path = skicrewTests;
+			sourceTree = "<group>";
+		};
+		07CF92A51A58FED10013E1C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07CF92A61A58FED10013E1C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07CF928B1A58FED00013E1C1 /* skicrew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CF92AB1A58FED10013E1C1 /* Build configuration list for PBXNativeTarget "skicrew" */;
+			buildPhases = (
+				07CF92881A58FED00013E1C1 /* Sources */,
+				07CF92891A58FED00013E1C1 /* Frameworks */,
+				07CF928A1A58FED00013E1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skicrew;
+			productName = skicrew;
+			productReference = 07CF928C1A58FED00013E1C1 /* skicrew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07CF92A01A58FED10013E1C1 /* skicrewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CF92AE1A58FED10013E1C1 /* Build configuration list for PBXNativeTarget "skicrewTests" */;
+			buildPhases = (
+				07CF929D1A58FED10013E1C1 /* Sources */,
+				07CF929E1A58FED10013E1C1 /* Frameworks */,
+				07CF929F1A58FED10013E1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CF92A31A58FED10013E1C1 /* PBXTargetDependency */,
+			);
+			name = skicrewTests;
+			productName = skicrewTests;
+			productReference = 07CF92A11A58FED10013E1C1 /* skicrewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CF92841A58FED00013E1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David Hoang";
+				TargetAttributes = {
+					07CF928B1A58FED00013E1C1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					07CF92A01A58FED10013E1C1 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 07CF928B1A58FED00013E1C1;
+					};
+				};
+			};
+			buildConfigurationList = 07CF92871A58FED00013E1C1 /* Build configuration list for PBXProject "skicrew" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07CF92831A58FED00013E1C1;
+			productRefGroup = 07CF928D1A58FED00013E1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CF928B1A58FED00013E1C1 /* skicrew */,
+				07CF92A01A58FED10013E1C1 /* skicrewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07CF928A1A58FED00013E1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF92971A58FED00013E1C1 /* Main.storyboard in Resources */,
+				07CF929C1A58FED10013E1C1 /* LaunchScreen.xib in Resources */,
+				07CF92991A58FED00013E1C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF929F1A58FED10013E1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CF92881A58FED00013E1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF92941A58FED00013E1C1 /* ViewController.swift in Sources */,
+				07CF92921A58FED00013E1C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CF929D1A58FED10013E1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF92A81A58FED10013E1C1 /* skicrewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07CF92A31A58FED10013E1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CF928B1A58FED00013E1C1 /* skicrew */;
+			targetProxy = 07CF92A21A58FED10013E1C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07CF92951A58FED00013E1C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CF92961A58FED00013E1C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07CF929A1A58FED10013E1C1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CF929B1A58FED10013E1C1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07CF92A91A58FED10013E1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07CF92AA1A58FED10013E1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CF92AC1A58FED10013E1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = skicrew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07CF92AD1A58FED10013E1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = skicrew/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07CF92AF1A58FED10013E1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = skicrewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skicrew.app/skicrew";
+			};
+			name = Debug;
+		};
+		07CF92B01A58FED10013E1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = skicrewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skicrew.app/skicrew";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CF92871A58FED00013E1C1 /* Build configuration list for PBXProject "skicrew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF92A91A58FED10013E1C1 /* Debug */,
+				07CF92AA1A58FED10013E1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CF92AB1A58FED10013E1C1 /* Build configuration list for PBXNativeTarget "skicrew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF92AC1A58FED10013E1C1 /* Debug */,
+				07CF92AD1A58FED10013E1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07CF92AE1A58FED10013E1C1 /* Build configuration list for PBXNativeTarget "skicrewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF92AF1A58FED10013E1C1 /* Debug */,
+				07CF92B01A58FED10013E1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07CF92841A58FED00013E1C1 /* Project object */;
+}
