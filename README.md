@@ -15,7 +15,6 @@ Thank you for coming to my talk! Here you will find slides from my talk in addit
 - [Time Boxing Product Discovery][5]
 - [Xcode Native Prototypes][6]
 - [How Picasso’s Guernica Has Shaped Our Understanding of Creativity][7]
-- 
 
 [1]:	https://github.com/davidhoang/there-and-back/issues
 [2]:	http://davidhoang.com
